@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">
+            <h1>Bin2Dec</h1>
+            <p>Conversor de binário para decimal</p>
+        </div>
+        <div class="convert">
+            <label for="binario">Binário:</label>
+            <input type="text" id="binario" placeholder="Ex: 100100" onchange="convert()">
+           
+
+            <label for="decimal">Decimal:</label>
+            <input type="text" id="decimal" readonly="true">
+
+            <input type="button" value="converter" onclick="convert()">
+        </div>
+    </div>  
+    <script src="main.js"></script>  
+</body>
+</html>
